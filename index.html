@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- style sheets: reset, fonts, fontstyles, and styles -->
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
       href="./assets/css/reset.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Mono"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/font.css"
     />
     <link
       rel="stylesheet"
@@ -23,9 +35,9 @@
       <header>
         <h2>Ry DeSoto</h2>
         <div class="flexbox-app">
-          <h3>About Me</h3>
-          <h3>Portfolio</h3>
-          <h3>Contact Me</h3>
+          <h4>About Me</h4>
+          <h4>Portfolio</h4>
+          <h4>Contact Me</h4>
         </div>
       </header>
       <main>
@@ -51,6 +63,34 @@
             <div class="portfolio-img-wrapper"></div>
           </div>
         </container>
+
+        <h3>
+          Image version 2: using object-fit. Height of each img changes via
+          media query.
+        </h3>
+        <div class="portfolio-row">
+          <div class="portfolio-img-wrapper2">
+            <img
+              class="portfolio-img"
+              src="./assets/images/300-test.png"
+              alt="test image"
+            />
+          </div>
+          <div class="portfolio-img-wrapper2">
+            <img
+              class="portfolio-img"
+              src="./assets/images/300-test.png"
+              alt="test image"
+            />
+          </div>
+          <div class="portfolio-img-wrapper2">
+            <img
+              class="portfolio-img"
+              src="./assets/images/300-test.png"
+              alt="test image"
+            />
+          </div>
+        </div>
       </main>
     </div>
   </body>
