@@ -39,16 +39,12 @@ header {
   justify-content: space-around;
 }
 
-/* .portfolio-img {
-  max-width: 375px;
-  max-height: 375px;
-  text-indent: -50%;
-  overflow: hidden;
-} */
-img {
-  max-width: 100%;
-}
+.portfolio-img {
+  max-width: 300px;
 
-/* .portfolio-img img {
-  max-width: 700px; 
-} */
+  /* text-indent: -25%; */
+  overflow: hidden;
+}
+img {
+  max-width: initial;
+}
