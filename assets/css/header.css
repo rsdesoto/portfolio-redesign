@@ -71,3 +71,18 @@ header a {
   color: #f6c71a;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .header-content {
+    display: block;
+    text-align: center;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header-right {
+    margin-top: 15px;
+  }
+}
