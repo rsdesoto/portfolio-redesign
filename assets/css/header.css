@@ -1,0 +1,46 @@
+/* 
+white
+#FFFFFF
+
+black
+#000000
+
+Color 7
+#C1394A
+
+Color 8
+#53B0CF
+
+Color 9
+#F6C71A
+ */
+
+body {
+  height: 100vh;
+  width: 100wh;
+}
+
+.page {
+  width: 100%;
+}
+
+header {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: #f6c71a;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-link {
+  padding: 0 10px;
+}

@@ -1,28 +1,19 @@
-body {
-  height: 100vh;
-  width: 100wh;
-}
-
-.page {
-  width: 100%;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.header-right {
-  display: flex;
-  justify-content: space-around;
-}
-
 /* each separate section of the website should be a single screen height */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .content-container {
-  width: 100vw;
-  min-height: 100vh;
+  width: 80%;
+  /* min-height: 100vh; */
   box-sizing: border-box;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.about-section {
 }
 
 .portfolio-row {

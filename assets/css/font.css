@@ -1,19 +1,27 @@
 body {
-  font-family: 'PT Mono', monospace;
+  font-family: "PT Sans", sans-serif;
 }
 
 h1 {
+  font-family: "PT Mono", monospace;
   font-size: 40px;
 }
 
 h2 {
+  font-family: "PT Mono", monospace;
   font-size: 36px;
 }
 
 h3 {
+  font-family: "PT Mono", monospace;
   font-size: 30px;
 }
 
 h4 {
+  font-family: "PT Mono", monospace;
   font-size: 24px;
+}
+
+a {
+  color: #c1394a;
 }
