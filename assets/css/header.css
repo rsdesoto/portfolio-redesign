@@ -70,6 +70,13 @@ header h4 {
 header a {
   color: #f6c71a;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+header a :hover {
+  text-decoration: underline;
+  color: #ff9d00;
+  transition: 0.5s;
 }
 
 @media (max-width: 600px) {
