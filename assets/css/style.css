@@ -22,14 +22,15 @@ main {
 }
 
 .about-text {
-  flex: 2;
+  flex: 3;
 }
 
 .profile-img-wrapper {
-  flex: 1;
-  height: 300px;
+  flex: 2;
+  height: 250px;
   text-align: right;
   margin-left: 20px;
+  margin-top: 20px;
   max-width: 300px;
   /* display: flex;
   align-items: center; */
@@ -103,17 +104,31 @@ main {
 
 /* breakpoints: 600px, 900px, 1200px, and 1800px */
 
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   .about-section {
     display: block;
+    width: 100%;
   }
 
   .profile-img-wrapper {
     height: 300px;
+    width: 100%;
     text-align: center;
-    margin-left: 0px;
+    margin: auto;
   }
 
+  .profile-img {
+    max-width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+  }
+
+  .profile-img-caption {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
   .about-contact-links {
     width: 100%;
     padding-left: 0;
