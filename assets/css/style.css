@@ -70,8 +70,29 @@ main {
 
 .about-contact-links {
   display: flex;
-  width: 100%;
+  width: 80%;
+  padding-left: 10%;
+
   justify-content: space-between;
+}
+
+.about-contact-links a {
+  color: black;
+  text-decoration: none;
+  /* font-size: 50px; */
+}
+
+.about-contact-links a:hover {
+  color: #c1394a;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: 0.5s;
+  /* font-size: 500px; */
+}
+
+.contact-logo {
+  height: 40px;
+  width: 40px;
 }
 
 .portfolio-section {
@@ -91,8 +112,10 @@ main {
     height: 300px;
     text-align: center;
     margin-left: 0px;
-    /* margin-left: 20px; */
-    /* display: flex;
-    align-items: center; */
+  }
+
+  .about-contact-links {
+    width: 100%;
+    padding-left: 0;
   }
 }

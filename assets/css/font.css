@@ -38,10 +38,12 @@ h4 {
 
 a {
   color: #c1394a;
+  /* font-size: 50px; */
 }
 
-main a :hover {
-  color: #e08f98;
+a:hover {
+  color: #922d38;
   font-weight: bold;
   transition: 0.5s;
+  /* font-size: 500px; */
 }
