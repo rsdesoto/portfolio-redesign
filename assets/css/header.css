@@ -66,3 +66,8 @@ header h4 {
   text-decoration: none;
   padding-bottom: 0;
 }
+
+header a {
+  color: #f6c71a;
+  text-decoration: none;
+}
