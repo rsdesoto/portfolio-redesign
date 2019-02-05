@@ -39,3 +39,9 @@ h4 {
 a {
   color: #c1394a;
 }
+
+main a :hover {
+  color: #e08f98;
+  font-weight: bold;
+  transition: 0.5s;
+}
