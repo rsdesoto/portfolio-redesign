@@ -1,4 +1,6 @@
-/* each separate section of the website should be a single screen height */
+body {
+  min-height: 100vh;
+}
 
 main {
   display: flex;
@@ -6,7 +8,7 @@ main {
 }
 
 .content-container {
-  width: 80%;
+  width: 90%;
   /* min-height: 100vh; */
   box-sizing: border-box;
   /* display: flex;
@@ -14,6 +16,33 @@ main {
 }
 
 .about-section {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.profile-img-wrapper {
+  flex: 1;
+  height: 300px;
+  text-align: right;
+  margin-left: 20px;
+  /* display: flex;
+  align-items: center; */
+}
+
+.profile-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  margin: 0;
+  padding: 0;
+  border: 5px solid #53b0cf;
+  border-radius: 10px;
 }
 
 .portfolio-row {
@@ -32,4 +61,14 @@ main {
   max-width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.about-contact {
+  width: 100%;
+}
+
+.about-contact-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
