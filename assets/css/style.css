@@ -120,6 +120,11 @@ main {
   box-sizing: border-box;
 }
 
+.portfolio-currentproject-wrapper {
+  width: 30%;
+  height: 300px;
+}
+
 /* mobile responsiveness and media queries */
 
 /* breakpoints: 600px, 900px, 1200px, and 1800px */
