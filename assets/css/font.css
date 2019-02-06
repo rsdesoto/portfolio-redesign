@@ -47,3 +47,10 @@ a:hover {
   transition: 0.5s;
   /* font-size: 500px; */
 }
+
+ul {
+  list-style-type: circle;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}

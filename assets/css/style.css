@@ -114,6 +114,12 @@ main {
   margin-left: 10%;
 }
 
+.portfolio-text-wrapper {
+  width: 30%;
+  margin: 0 8px;
+  box-sizing: border-box;
+}
+
 /* mobile responsiveness and media queries */
 
 /* breakpoints: 600px, 900px, 1200px, and 1800px */
